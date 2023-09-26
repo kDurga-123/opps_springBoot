@@ -1,0 +1,16 @@
+Map Creation: Think of a real-world system, like a library or a shopping mall. How would you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they interact?
+
+
+I am using a shopping mall as an example here:
+
+Encapsulation: 
+Encapsulation basically means securing essential data. When we visit a shopping mall, we secure our money, phone, ATM card, or credit cards. However, we do not secure our luggage bags, so we are primarily securing essential data.
+Inheritance :
+ Inheritance involves inheriting data from a superclass to a subclass. In this analogy, imagine we intend to purchase clothes and shoes. However, upon arriving at the store, we decided to purchase jewelry as well. We are modifying our initial list, which originally included only clothes and shoes. This concept exemplifies inheritance.
+Abstraction:
+ Abstraction is about simplifying complex systems, breaking them into more manageable pieces, and exposing only what's necessary. In this example, when we buy clothes, shoes, and jewelry, we are purchasing these items without needing to know how they were made or where they were sourced. We only focus on acquiring clothes, shoes, and jewelry."
+
+Polymorphism: 
+Polymorphism means having many forms. For instance, after completing our shopping, we have various options to pay our bills. We can use Google Pay, cash, PhonePe, or credit cards. These represent different forms of payment, but ultimately, we are settling the same bill.
+
+
