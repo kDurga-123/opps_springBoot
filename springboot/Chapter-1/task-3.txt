@@ -1,0 +1,49 @@
+Travel Constraints: Consider restrictions or rules you might encounter on your journey, like
+luggage weight limits or visa requirements. How would these constraints translate to software 
+design principles?
+
+If I travel to another country, I might encounter journey-related constraints like luggage 
+weight limits or visa requirements, which can be likened to software design principles in
+this way :
+
+Single responsibility principle:
+
+    When traveling to another country, if we have excess luggage, airport security may ask us to 
+    remove some items for inspection, including checking our passport and visa. In this scenario,
+    they are performing one task at a time, with each task requiring precision.
+
+Open/Closed Principle:
+
+    This principle is open for extension and closed for modification. For example, after reaching 
+    another country , we had initially planned a 3-day schedule. On the second day, I decided to
+    attend two additional events, so I extended my second-day schedule. To accommodate the new 
+    events, I reduced the time allocated to the first two events, allowing me to finish them 
+    quickly and allocate the remaining time to the third event. In this scenario, I am extending 
+    the third task and modifying the time for all three tasks.
+
+Liskov Substitution Principle:
+
+    In that new country, there are two types of rooms: room1 and room2. Each room is equipped with 
+    basic amenities such as a bed, restroom, fan, etc. The core functionality remains consistent, 
+    but the quality may vary. In this scenario, room2 can be considered the superclass, and room1
+    the subclass. The essence of the Liskov Substitution Principle is that a superclass should be
+    replaceable with a subclass without adversely affecting the correctness of the program.
+
+Interface Segregation Principle:
+
+    The Interface Segregation Principle is similar to a contract that needs to be completed, 
+    whether we like it or not. For instance, when going to another country for work, we must
+    attend certain meetings, regardless of our preferences.
+
+Dependency Inversion Principle:
+
+    In the context of this principle, we establish a relationship where higher-level dependencies 
+    rely on abstractions, and lower-level dependencies depend on these same abstractions. For 
+    instance, if I am in another country for work and all the employees gather at a restaurant, 
+    you might instruct them to order something specific – this represents a higher-level 
+    dependency. Meanwhile, your friends may choose to order coffee or tea, which reflects a 
+    lower-level dependency. In this scenario, both higher and lower dependencies are abstractions 
+    following the Dependency Inversion Principle.
+
+
+

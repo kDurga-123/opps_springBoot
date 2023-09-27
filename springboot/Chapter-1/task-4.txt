@@ -1,0 +1,113 @@
+Customized Itinerary: Design a travel itinerary for a friend who has different preferences than you. How
+would you ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+Base Travel List (Super List):
+
+    Clothing
+    Medications
+    Passport
+    Accessories
+    Power bank
+    Room booking (2-star hotel)
+
+Your Travel List (Inherited):
+
+    Inherits from the base list.
+    Contains your specific preferences and needs:
+        Party clothing
+        Comfortable shoes
+        Prescription medications
+        Passport
+        Sunglasses
+        Power bank
+        Room booking (3-star hotel)
+
+Your Friend's Travel List (Inherited):
+
+    Inherits from the base list.
+    Excludes some items and adds his own preferences:
+        Party clothing
+        Hiking boots
+        Over-the-counter medications
+        Passport
+        Camera
+        Playing cards
+        Room booking (5-star hotel)
+        water bottle
+        books
+
+Combined Final Travel List:
+
+    Clothing (including party clothing for both)
+    Medications (including prescription and over-the-counter medications)
+    Passport (common to both)
+    Accessories (common to both)
+    Power bank (common to both)
+    Room booking (3-star hotel for you and 5-star hotel for your friend)
+    Comfortable shoes (for you)
+    Sunglasses (for you)
+    Hiking boots (for your friend)
+    Camera (for your friend)
+    Playing cards (for your friend)
+    water bottle
+    books
+
+
+OOP (object oriented programming language):
+
+    encapsulating :
+
+        In this final list, I will secure the passport and laptop . Camera does not need to be secured.
+        We need free accessibility to a water bottle and books.I am securing the necessary things.
+
+    polymorphism :
+
+        After going to another country, we have to change money to their local currency. Money takes
+        many forms, but in the end, it serves the same purpose. For example, rupees in India, yuan 
+        in China, and dollars in the USA may look different, but they are essentially the same. This 
+        is called polymorphism.
+
+    Abstraction:
+
+        Both me and my friend are traveling to the same country, but you abstract away the
+        specifics of how you reach your destination and manage expenses. This high-level view
+        allows you to focus on your preferences without getting into each other's travel logistics.
+
+
+    Design Principles : 
+
+    Single responsibility principle:
+
+        When traveling to another country, if my friend and I have excess luggage, airport security
+        may ask us to remove some items for inspection. This includes checking our passport and 
+        visa. In this scenario, they are performing one task at a time and that task is to be well.
+
+    Open/Closed Principle :
+
+        The Open/Closed Principle states that a system should be open for extension but closed for
+        modification Here, my friend and I initially planned to finish two tasks in one day, but my 
+        friend had additional work to complete. She asked for my help, and we extended the task list.
+        Ultimately, we successfully completed all the tasks without leaving any pending."
+
+
+    Liskov Substitution Principle:
+
+        In this new country, there are two types of rooms: room1 and room2. Both have basic amenities 
+        like beds, restrooms, and fans, but room2 is of higher quality. In terms of the Liskov 
+        Substitution Principle, room2 can be seen as the superclass, and room1 as the subclass. 
+        The principle means that you should be able to use room1 wherever you use room2 without 
+        causing problems in the program.
+
+    Interface Segregation Principle:
+
+        Think of it like a contract you can't avoid. When went in another country, you may have 
+        to attend some events, whether we like it or not.
+
+    Dependency Inversion Principle: 
+
+        This principle is about higher-level and lower-level dependencies. me and friend went 
+        restaurant. my friend instructs them to order something specific (higher-level dependency), 
+        while my friends choose to order coffee or tea (lower-level dependency). Both scenarios 
+        rely on abstractions, following the Dependency Inversion Principle
+
+

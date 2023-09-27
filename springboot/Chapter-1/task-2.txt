@@ -1,0 +1,19 @@
+If I am embarking on a journey to Switzerland and its neighboring countries, I will encounter 
+situations where the concepts of inheritance and polymorphism come into play.
+
+
+Inheritance :
+    Inheritance involves inheriting data from a superclass to a subclass. While in Switzerland, 
+    I initially decided to visit places like Geneva and the Rhine Falls. However, as I explored 
+    further, I realized that I wanted to modify my travel plan. This led me to consider visiting
+    neighboring countries as well. During this process, I revised my original list of places to 
+    visit, creating a final itinerary. Additionally, I also added destinations like Interlaken 
+    and Lucerne to the list. In this context, I am modifying my list, where the superclass 
+    represents the initial list, and the subclass is the modified list.
+Polymorphism : 
+    Polymorphism, meaning "having many forms.When visiting different places, I often find myself 
+    traveling from one location to another. To facilitate this journey, I have several 
+    transportation options at my disposal, including cars, flights, and trains. While there 
+    are many ways to travel, the ultimate goal remains the same: reaching my destination safely.
+    In this context, there are various transportation methods, but the destination remains 
+    constant here. There are many ways but the destination is same..
